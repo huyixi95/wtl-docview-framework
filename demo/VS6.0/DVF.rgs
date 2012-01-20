@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{AF2B0013-0511-4E97-8761-B714C1531926} = s 'DVF'
+		'DVF.EXE'
+		{
+			val AppID = s {AF2B0013-0511-4E97-8761-B714C1531926}
+		}
+	}
+}
