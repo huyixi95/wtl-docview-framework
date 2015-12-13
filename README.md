@@ -1,4 +1,7 @@
 # WTL Docview Framework
+Implemetation of a simple DocView? framework like MFC.
+
+![DocView Framework](/images/DocView_framework.jpg)
 
 ##Introduction
 This article explains the implementation of a simple Doc View framework in a WTL (version 7.5) MDI application. The sample project included with this article is a wizard-generated MDI application enhanced with my framework classes.
@@ -14,6 +17,7 @@ In the demo project, you can see how to integrate the framework to your own proj
 
 Below is a simplified class diagram of the framework:
 
+![Class Diagram](/images/fw_class_diagram_simple.JPG)
 
 History
 1 Jan 2006
