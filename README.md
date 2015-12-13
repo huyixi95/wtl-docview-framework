@@ -8,7 +8,9 @@ I enhanced code from Gabriel Kniznik with a little bit closer to the MFC DocView
 In this library is also participating Rodrigo Pinho Pereira de Souza, who made great enhancements to this framework (see the History section).
 
 ###Implementation
-In the demo project, you can see how to integrate the framework to your own project. You have to make changes to CMainFrame, CChildFrame, CYourView, and create a new class CYourDoc. Do not forget to change the IDR_CHILDFRAME string to the form for MFC -> '''\nDocument\nDVF\n\n\nDVFSimple.Document\nDVF Document.'''
+In the demo project, you can see how to integrate the framework to your own project. You have to make changes to CMainFrame, CChildFrame, CYourView, and create a new class CYourDoc. Do not forget to change the IDR_CHILDFRAME string to the form for MFC:
+
+```\nDocument\nDVF\n\n\nDVFSimple.Document\nDVF Document.```
 
 Below is a simplified class diagram of the framework:
 
