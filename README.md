@@ -53,7 +53,7 @@ Collection of Toolbox tab objects.
 Collection of Toolbox tab item objects.
 
 These interfaces allow you to manipulate an object from Visual Basic (or VB script) using For..Next and For...Each syntax:
-
+```vb
 Private Sub Form_Load()
 Dim tab As ToolBoxTab
   Set tab = Toolbox1.ToolBoxTabs.Add("Tb 1")
@@ -61,7 +61,8 @@ Dim tab As ToolBoxTab
     tb.Name = "Tab"
   Next
 End Sub
-Events
+```
+###Events
 There is an event dispatch interface IToolboxEvents, and it is related to the Toolbox object.
 
 ###Property pages
